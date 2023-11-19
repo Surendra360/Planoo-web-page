@@ -15,10 +15,12 @@ body{
 }
 
 .firstpage{
-    width: 95%;
+    width: 90%;
     height: 100%;
     background-color: rgb(255, 255, 255);
-    margin: 40px 40px;
+    margin: 80px 80px;
+    
+    
     /* padding: 0.1px; */
 
 }
@@ -89,6 +91,15 @@ nav > button{
 .firsttxt>h1>span{
     color: black;
 }
+.firsttxt>h3{
+    font-family: gilroy;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    margin-top: 18vh;
+}
 .form{
     background-color: rgb(193, 192, 192);
     width: 60%;
@@ -135,4 +146,63 @@ nav > button{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.secondpage{
+    width: 90%;
+    height: 100vmax;
+    background-color: rgb(253, 253, 253);
+    margin: 80px;
+    margin-top: -35px;
+    padding: 0.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+}
+.secondpage>h1{
+    text-align: center;
+    font-family: gilroy;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 20vh;
+    
+}
+.secondbox{
+    width: 70%;
+    height: 35%;
+    /* background-color: red; */
+    /* margin-left: 240px; */
+    display: flex;
+    justify-content: space-between;
+}
+.before{
+    width: 49%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+.after{
+    width: 49%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+.before>span{
+    font-size: 18px;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.after>span{
+    font-family: 18px;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+    
 }
